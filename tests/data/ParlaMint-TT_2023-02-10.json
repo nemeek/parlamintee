@@ -1,0 +1,99 @@
+[
+    {
+        "speech_data": {
+            "parliament_election_year": "2011",
+            "date_of_speech": "2011-04-04 15:00:00",
+            "speaker_id": "",
+            "speaker_first_name": "",
+            "speaker_last_name": "",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 1,
+            "government_minister": 0,
+            "speaker_gender": "",
+            "speaker_birth_date": "",
+            "parliamentary_group": "",
+            "parliamentary_group_short": "",
+            "political_party": "",
+            "electoral_list": "",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/201104041500",
+            "session": "I regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00",
+            "agenda_item": "15:00 Avaistung"
+        },
+        "speech": [
+            "(Lauldakse hümni.)"
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2011",
+            "date_of_speech": "2011-04-04 15:00:00",
+            "speaker_id": "a_heinsalu_00000000",
+            "speaker_first_name": "Alo",
+            "speaker_last_name": "Heinsalu",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 1,
+            "government_minister": 0,
+            "speaker_gender": "",
+            "speaker_birth_date": "",
+            "parliamentary_group": "",
+            "parliamentary_group_short": "",
+            "political_party": "",
+            "electoral_list": "",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/201104041500",
+            "session": "I regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00",
+            "agenda_item": "15:00 Avaistung"
+        },
+        "speech": [
+            "Austatud Vabariigi President! Lugupeetud Riigikogu liikmed! Vabariigi Valitsuse liikmed! Teie ekstsellentsid! Daamid ja härrad! Tulenevalt Riigikogu kodu- ja töökorra seaduse § 2 lõikest 2 juhatab Riigikogu tänast istungit kuni Riigikogu esimehe valimiseni Vabariigi Valimiskomisjoni aseesimees Alo Heinsalu.",
+            "XII Riigikogu esimese istungjärgu esimese istungi avamiseks on sõna Vabariigi Presidendil. Palun!"
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2011",
+            "date_of_speech": "2011-04-04 15:03:00",
+            "speaker_id": "th_ilves_00000000",
+            "speaker_first_name": "Toomas Hendrik",
+            "speaker_last_name": "Ilves",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 1,
+            "government_minister": 0,
+            "speaker_gender": "",
+            "speaker_birth_date": "",
+            "parliamentary_group": "",
+            "parliamentary_group_short": "",
+            "political_party": "",
+            "electoral_list": "",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/201104041500",
+            "session": "I regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00",
+            "agenda_item": "15:03 Vabariigi Presidendi avakõne"
+        },
+        "speech": [
+            "Austatav Eesti Vabariigi Riigikogu XII koosseis! Mu daamid ja härrad! Head sõbrad! Valimised on toimunud, nende tulemused välja kuulutatud ja Eesti rahva 101 esindajat võtnud siin sisse oma töökoha. Nagu paljudes riikides on ka meil tavaks nummerdada oma parlamendi koosseise. Me teeme seda põhjusel, et iga parlament alustab puhta lehena. Igal koosseisul on uus mandaat. Iga Riigikogu liige alustab täna otsast peale ja uuesti. See tähendab, et olnu ei pea teid kammitsema, kui leiate, et seni tehtu hästi ei tööta. See tähendab, et võite teha teist- ja uutmoodi, kui vanamoodi ei tulnud hästi välja. See tähendab, et lähtuge oma tõekspidamistest. Sellest, mida õigeks peate.",
+            "Põhiseadus on määranud Riigikogu kestma läbi aja. Ühelt poolt paneb see teile kohustuse olla oma eelkäijate vääriline, hoida ja edendada siin varem tehtut. Teisalt sõltub just teist, kuidas suhtub Eesti rahvas oma parlamenti ja koos sellega oma riiki kümne, viiekümne ja saja aasta pärast. Igaühel teist on üks, kuid see-eest täiesti erandlik eesõigus: esindada kõrgeima võimu kandjalt saadud usalduse toel rahvast ja langetada riigi käekäiku määravaid otsuseid. Iga Riigikogu liige kannab seega topeltvastutust. Ta peab oma mandaadi välja teenima ja esindama oma valijate tahet, aga samal ajal vastutab ta parlamendi ees, mille järjekorranumber kasvab, kuni elab Eesti Vabariik.",
+            "Mu daamid ja härrad! Riigikogu liikme tähtsaim omadus on mõistmine, et ta on valitud teenistusse – teenima oma valijaid, teenima riiki. Selle teenistuse hind võib olla ränk, nagu kinnitab parlamendihoone sisehoovis seisev tahvel Riigikogu liikmetele, kes langesid okupatsioonivõimude repressioonide ohvriks. Ärme siis hetkekski unusta, et riigi teenimine on auasi. Au ei tee vahet soo, vanuse, rahvuse, erakonna ega valimisringkonna järgi. See on kapital, millega mõõdetakse teie töö tulemuslikkust päeval, mil teie volitused siin majas lõpevad. Ja lootkem ühiselt, et seda moraalset kapitali saate oma järeltulijatele pärandada rohkem, kui täna ise siit eest leidsite. Kui teie moraalse kompassi nõel näitab õigesse suunda, kui te lähtute oma töös teadmisest, et just selle maa ja rahva keel, kultuur ja vaimsus kannavad me riiki ja iga inimest, siis pole see ülesanne raske. Ammugi ei käi see üle jõu.",
+            "Head sõbrad! Te alustate puhtalt lehelt, aga te seisate kindlal vundamendil. Ma tänan XI Riigikogu koosseisu, kelle volitused langesid mitmes mõttes keerulisse aega. Paljud majanduskasvu harjal rahvale jagatud lubadused varisesid majanduskriisi põrmu. Sõda Gruusias muutis Euroopa julgeolekupoliitilist ruumi ja purustas arusaama, et 20 aasta eest kujunenud Euroopa julgeolekustruktuur ja selle alusmõtted kestavad igavesti. Tänavarahutused Tallinnas sundisid meid ümber hindama oma lõimumis- ja hariduspoliitika tegematajätmisi ning kinnitasid sovetlike mõttestampide visadust.",
+            "Aga tuleb ka tunnistada, et samal ajal sai just Eestist rahvusvaheline eeskuju, kui taheti mainida mõnd muutunud majandusoludega kiiresti kohanenud riiki. Osa riike lükkas valusaid otsuseid edasi, teised jätsid need tegemata. Neil on täna raskem, nende tulevik on ebaselgem. See teadmine ei tee meile muidugi rõõmu. Teiste hädad ei muuda karvavõrdki väiksemaks Eesti muret ja meelekibedust, mida ränk majanduslangus tõi meie peredesse ja ettevõtetesse. Aga Eesti sai hakkama. Nagu praegu looduses on ka Eesti majanduses näha jõudsa tärkamise märke. Selle eest ma tahan tunnustada rahuliku meele säilitanud rahvast; valitsust, kes võttis pikemalt venitamata vastu möödapääsmatud otsused. Ma tahan tänada Riigikogu, kes eelistas koostööd vastandumisele ja paralüüsile. Kuu aega tagasi pani valija sellele tööle hinde, aga mitte ainult. Ta saatis Toompeale lootuse ja sõnumi, et järgmine võimalik tagasilöök oleks pehmem ja vähem ootamatu. Valija investeeris siia usku, et Eesti riik sirgub nelja järgmise aastaga hoolivamaks, targemaks ja paremaks.",
+            "Mu daamid ja härrad! Teie eelkäijate üldjoontes head tööd on varjutanud ka põhiseadusega vastuollu minekud ja rumalad näpuvead. Olen neile järjepidevalt osutanud. Kõik eksivad ja see on inimlik. Ka riigid teevad parimat soovides mõnikord valesid otsuseid. Heal juhul õnnestub neid vigu hiljem parandada. Aga hooletuse ja hoolimatuse, põhiseaduse teadliku ja sihiliku eiramise võiks Riigikogu XII koosseis esimesest tööpäevast alates täiesti välistada. Soovin teile julgust tulla tagasi seaduste juurde, mille toime pole selline, nagu alguses loodeti. Tehke need seadused korda, sest halvasti, puudulikult või üldsegi mitte töötav seadus kõigutab usku õigusriiki ja põhiseaduslikku korda. Küsige iga uue seaduse kohta: kas seda on vaja? Kas uuest seadusest loodetav kasu ja selgus ületab sellega kaasneva segaduse ja võimaliku kahju? Küsige iga paragrahvi ja iga eelarverea kohta: kas see suurendab meie inimeste heaolu? Kas see teeb Eesti suuremaks ja paremaks?",
+            "Mu daamid ja härrad! Neli ja pool aastat tagasi ametisse astudes sõnastasin ma siinsamas saalis Eestile, aga ennekõike iseendale ühe unistuse, mis tegelikult on pigem kohustus. Ma lootsin siis, et Eesti iseseisvuse taastamise 20. aastapäeval näeb me riik välja nii ja käitub nii, nagu poleks okupatsiooni kunagi olnudki. Paljuski oleme sihile jõudnud. Oleme 20 aastaga võitnud tagasi enamiku sellest, mida 50 aastaga kaotasime. Oleme enamasti suutnud vältida neid vigu, mis viisid kunagi omariikluse hävinguni. Erinevalt toonasest ajastust me saame ja tahame oma probleemidest avalikult rääkida. See on kogu Eesti rahva, meie ettevõtjate ja loomeinimeste, meie vabakonna ja ajakirjanduse, Eesti riigiametnike, erinevate valitsuste ja parlamendikoosseisude ühine saavutus. Me teame oma muresid ja probleeme, mille lahendamiseks andis valija mandaadi parlamendi uuele koosseisule ja peagi ametisse astuvale valitsusele. Me teame oma nõrkusi, mis äsjane majanduskriis halastamatult paljastas. Kui Eestil läheb hästi, kui meie majandus kasvab ja päike paistab, siis on kõik justkui korras. Kui aga majandust tabab ränk langus, kui tihe lumesadu või tugev tuul peatab liikluse, viib elektri ja lennutab katuseid, siis hakkab meie riik rebenema. Riik on abitu just sel hetkel, kui kodanikud loodavad tema toele ja abile. Eestil napib veel tugevuse varu. Oleme teda kohati liiga palju optimeerinud. Ühegi toimiva masina, saati siis riigimasina töövõimsust ei saa kavandada ideaaltingimusi silmas pidades. Me peame tänama õnne, et saime oma riigi uuesti üles ehitada ajal, mis säästis meid suurematest vapustustest Eestis ja vahetult meie piiri taga. Nüüd, küpsematena, jõukamatena ja maailma parimate organisatsioonide liikmena on meie kohus ühiskonda sidusamaks ja seeläbi tugevamaks teha. Saagu siis sellest meie järgmine eesmärk.",
+            "Austatav Riigikogu! Viimase nelja aasta jooksul on märkamatult, kuid oluliselt muutunud ka Eesti koht maailmas ja Euroopas. Majanduskriis tunnistas ammendunuks, koguni kõlbmatuks Euroopa jagamise uueks ja vanaks, idaks ja lääneks. Täna sõltub Euroopa Liidu liikmesriigi tõsiseltvõetavus üha enam tema vastutustundlikust käitumisest. Üha vähem maksavad kunagine kuulumine külma sõja võitja poolele ja toonaste tõukefondide toel sinna rajatud ilus taristu. Eesti on täiskasvanud riik ja nii meid ka koheldakse. See toob kaasa kohustuse teisi aidata, olgu Afganistanis, Somaalia rannikul või Põhjala lahingugrupis, aga ka panustades Euroopa stabiilsusmehhanismi, et toetada vajadusel neid, kellel on Eestist kehvemini läinud. Me üha kasvav vabadus, võimalused maailmas ringi rännata tähendavad ka riigile üha suuremat kohustust kaitsta oma kodanikke kõikjal maailmas.",
+            "Mu daamid ja härrad! Asudes sisuga täitma valijatelt saadud mandaati, küsige endilt otse ja ausalt: kas elu kõikjal Eestis on ühtviisi elamist väärt? Kas kõik me talendid löövad õitsele? Kas meie ülikoolide pakutav haridus rahuldab meie kõige targemaid noori? Kas me põhikoolid, kutsekoolid ja gümnaasiumid valmistavad ette noori, kes saavad hakkama ja leiavad tööd 21. sajandi majanduses? Kas parimatest ideedest saavad ühishuve edendavad otsused? Kas meie kodanike põhiseaduslikud õigused on alati ja kõikjal vääramatult kaitstud? Kas oleme, me kõik, emakeelest ja kultuurist sõltumata, õnnelikud just siin, Eestis? Kuni vastus on eitav või isegi ebalev, ei peaks me muretsema eesmärkide nappuse üle.",
+            "Eesti järgmiseks eesmärgiks on kujundada meie riigist elukeskkond, kust omad ei lahku, kuhu tullakse võõrsilt kogemuse võrra rikkamana tagasi ja kus kõik Eesti sõbrad soovivad elada, end tõestada ja meie ühist elu rikkamaks muuta. Ja siis on meil tõesti riik, mis näeb välja nii ja käitub nii, nagu poleks okupatsiooni siin kunagi olnudki. See siht väärib pingutust ja eneseületust, see väärib isikliku egoismi ja erakondliku väikluse allasurumist, koalitsiooni ja opositsiooni sisulist koostööd. Teil, austatavad Riigikogu XII koosseisu liikmed, on puhta lehena võimalus selle sihini jõuda ning oma riiki, oma rahvast parimal viisil teenida. Jõudu teile selleks! Ma tänan! (Aplaus.)"
+        ]
+    }    
+]

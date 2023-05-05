@@ -1,0 +1,120 @@
+[
+    {
+        "speech_data": {
+            "parliament_election_year": "2019",
+            "date_of_speech": "2022-06-08 00:02:00",
+            "speaker_id": "h_pevkur_19770402",
+            "speaker_first_name": "Hanno",
+            "speaker_last_name": "Pevkur",
+            "mp_chair": 0,
+            "mp_deputy_chair": 1,
+            "mp_regular": 0,
+            "mp_governing_party": 1,
+            "guest": 0,
+            "government_minister": 0,
+            "speaker_gender": "man",
+            "speaker_birth_date": "1977-04-02",
+            "parliamentary_group": "Reformierakond",
+            "parliamentary_group_short": "RE",
+            "political_party": "Reformierakond",
+            "electoral_list": "Reformierakond",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/202206081400",
+            "session": "VII regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XIV Riigikogu, VII istungjärk, täiskogu istung Kolmapäev, 08.06.2022, 14:00",
+            "agenda_item": "18:36 Perehüvitiste seaduse muutmise seaduse eelnõu (619 SE) teine lugemine"
+        },
+        "speech": [
+            "Head kolleegid, uus päev on koitnud. Tere hommikust! Ma saan aru, et Marko Šorinile võib õnne soovida. Palju õnne! (Aplaus.) Nüüd on juhataja väikese dilemma ees: saalist kostusid mitmed hõiked, et võiks juhataja vaheaja võtta, siis saaks Markole õnne soovida. Ma ei tea, kuidas teil tunne on. Aga enne, kui me selle protseduuri juurde saame minna, on tegelikult selline lugu, et Reformierakonna võetud vaheaeg on läbi ja meil tuleb läbi hääletada neljas muudatusettepanek, mille esitas Annely Akkermann. Panen hääletusele neljanda muudatusettepaneku. Palun võtta seisukoht ja hääletada!"
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2019",
+            "date_of_speech": "2022-06-08 03:06:00",
+            "speaker_id": "t_kruusimäe_19670409",
+            "speaker_first_name": "Tarmo",
+            "speaker_last_name": "Kruusimäe",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 1,
+            "mp_governing_party": 0,
+            "guest": 0,
+            "government_minister": 0,
+            "speaker_gender": "man",
+            "speaker_birth_date": "1967-04-09",
+            "parliamentary_group": "Isamaa",
+            "parliamentary_group_short": "ISA",
+            "political_party": "Isamaa",
+            "electoral_list": "Isamaa",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/202206081400",
+            "session": "VII regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XIV Riigikogu, VII istungjärk, täiskogu istung Kolmapäev, 08.06.2022, 14:00",
+            "agenda_item": "18:36 Perehüvitiste seaduse muutmise seaduse eelnõu (619 SE) teine lugemine"
+        },
+        "speech": [
+            "Tänan! Selleks, et meie koosolemist meeleolukalt teha ja et keegi teineteise peale viha ei kannaks, siis ma pakuks ise välja, et ma ise võiksin laulda P.V.A laulu 'Kala laulab'. Üldjuhul inimesed, kes seda laulu kord on kuulnud, nad ei taha, et ma seda teist korda teeksin. (Naer saalis.) Aga siin paljud saadikud jälle ei ole kuulnud seda. Ma olen seda küll tsiteerinud, sõnu siin. Aga tegemist on jah P.V.A ansambliga, mis oli üsna tuntud ja populaarne. Miks mitte. Me võime ise ju laulda, pole klaverit vaja. Pärast klaveriga on veel see piinlik moment, et siis selgub, et ei oskagi laulda."
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2019",
+            "date_of_speech": "2022-06-08 13:12:00",
+            "speaker_id": "j_ratas_19780702",
+            "speaker_first_name": "Jüri",
+            "speaker_last_name": "Ratas",
+            "mp_chair": 1,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 0,
+            "government_minister": 0,
+            "speaker_gender": "man",
+            "speaker_birth_date": "1978-07-02",
+            "parliamentary_group": "Keskerakond",
+            "parliamentary_group_short": "KE",
+            "political_party": "Keskerakond",
+            "electoral_list": "Keskerakond",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/202206081200",
+            "session": "VII regular session",
+            "sitting_type": "info session",
+            "general_header": "XIV Riigikogu, VII istungjärk, infotund Kolmapäev, 08.06.2022, 12:00",
+            "agenda_item": "13:12 Rahvusvaheline olukord"
+        },
+        "speech": [
+            "Liigume edasi kuuenda küsimuse juurde. Selle esitab Riigikogu liige Indrek Saar, sellele vastab valitsuse liige peaminister Kaja Kallas ja teema on rahvusvahelisest olukorrast. Indrek Saar, palun!"
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2019",
+            "date_of_speech": "2022-06-08 13:12:00",
+            "speaker_id": "i_saar_19730220",
+            "speaker_first_name": "Indrek",
+            "speaker_last_name": "Saar",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 1,
+            "mp_governing_party": 0,
+            "guest": 0,
+            "government_minister": 0,
+            "speaker_gender": "man",
+            "speaker_birth_date": "1973-02-20",
+            "parliamentary_group": "Sotsiaaldemokraatlik erakond",
+            "parliamentary_group_short": "SDE",
+            "political_party": "Sotsiaaldemokraadid",
+            "electoral_list": "Sotsiaaldemokraadid",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/202206081200",
+            "session": "VII regular session",
+            "sitting_type": "info session",
+            "general_header": "XIV Riigikogu, VII istungjärk, infotund Kolmapäev, 08.06.2022, 12:00",
+            "agenda_item": "13:12 Rahvusvaheline olukord"
+        },
+        "speech": [
+            "Aitäh, lugupeetud juhataja! Austatud peaminister! Kõigepealt tunnustan teie tööd rahvusvahelises julgeolekuolukorras ja kindlasti on teil oma panus selles, et täna välispoliitikas tihti tõdetakse, et Eesti on oluliselt suurem, kui väliste gabariitide järgi võiks arvata. Hurda soov sellest, et vaimult suureks saada, on mõnes mõttes tänases kriitilises ja väga tõsises olukorras isegi võib-olla mõnevõrra tõeks osutunud.",
+            "Aga see ei tähenda, et meil ei oleks muresid. Üks nendest muredest seondub meie väga olulise liitlasega, kellelt tulevad sõnumid teevad neid inimesi, kes vähegi uudiseid jälgivad, pidevalt ärevaks. See puudutab eelkõige Prantsusmaad ja president Macroni. On loogiline, et veebruari alguses, enne seda, kui sündmused 24. veebruaril dramaatilise pöörde võtsid, teatas Macron enne Moskvasse sõitu, et ta muu hulgas peab Venemaa julgeolekumuresid õigustatuks. See muidugi ei meeldinud meile absoluutselt. Aga me lootsime, et peale 24. veebruari on midagi muutunud, eriti selles kontekstis, kus paljud lääne‑ ja keskeurooplased ütlesid, et nad tunnistavad, et nad eksisid, kui ei võtnud piisavalt tõsiselt meie läbi aastate tehtud hoiatusi, kuidas Venemaa ambitsioonidesse tuleks suhtuda.",
+            "Sellest hoolimata me näeme, et Macron tuleb jälle välja jutuga, et Venemaad ei tohi alandada ja talle peaks midagi andma. See kindlasti ei meeldi absoluutselt meile, ammugi mitte meie sõpradele Ukrainas. Ja ta helistab. Muideks, väliskomisjoni liige Mihhail Lotman on teinud tähelepaneku, et pärast iga Macroni telefonikõnet Ukraina pommitamine Venemaa poolt intensiivistub. Mis siis ... (Juhataja helistab kella.) Mida me teeme valesti? Miks üks meie olulisi liitlasi on taas hakanud rääkima juttu, mis iga kord tekitab meis ohutunde? (Juhataja helistab kella.)"
+        ]
+    }
+]

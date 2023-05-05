@@ -1,0 +1,8 @@
+lxml
+estnltk
+ijson
+
+# For tests
+pytest
+xlmdiff
+

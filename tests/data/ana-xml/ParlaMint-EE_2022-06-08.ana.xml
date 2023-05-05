@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-EE_2022-06-08.ana" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2022-06-08</title>
+        <title xml:lang="et" type="sub">XIV Riigikogu, VII istungjärk, täiskogu istung Kolmapäev, 08.06.2022, 14:00</title>
+        <title xml:lang="en" type="sub">XIV Parliament term, VII istungjärk, Plenary Assembly meeting on Wensday, 08.06.2022, 14:00</title>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK14">XIV Riigikogu</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs7">VII regular session</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2022-06-08">2022-06-08</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0002-9701-1771">Martin Mölder</persName>
+          <persName ref="https://orcid.org/0000-0003-0511-5854">Neeme Kahusk</persName>
+          <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
+          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.1</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="et" unit="speeches" quantity="4">4 kõnet</measure>
+        <measure xml:lang="en" unit="speeches" quantity="4">4 speeches</measure>
+        <measure xml:lang="et" unit="words" quantity="455">455 sõna</measure>
+        <measure xml:lang="en" unit="words" quantity="455">455 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2023-02-15">2023-02-15</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201104041500</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="note" occurs="8"/>
+          <tagUsage gi="u" occurs="4"/>
+          <tagUsage gi="seg" occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">Riigikogu</name>
+          <name type="address">Lossi plats 1a</name>
+          <name type="city">Tallinn</name>
+          <name type="country" key="EE">Estonia</name>
+          <date when="2022-06-08">2022-06-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#covid">
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2022-06-08_U1" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2022-06-08_U1-P1">
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.1" lemma="hea" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur" pos="A">Head</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.2" lemma="kolleeg" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">kolleegid</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.3" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.4" lemma="uus" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" pos="A">uus</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.5" lemma="päev" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">päev</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.6" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.7" lemma="koitma" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">koitnud</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.1.8" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U1-P1.1.2 #ParlaMint-EE_2022-06-08_U1-P1.1.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.1 #ParlaMint-EE_2022-06-08_U1-P1.1.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.1.7 #ParlaMint-EE_2022-06-08_U1-P1.1.3"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U1-P1.1.5 #ParlaMint-EE_2022-06-08_U1-P1.1.4"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.1.7 #ParlaMint-EE_2022-06-08_U1-P1.1.5"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.1.7 #ParlaMint-EE_2022-06-08_U1-P1.1.6"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U1-P1.1.2 #ParlaMint-EE_2022-06-08_U1-P1.1.7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.1.2 #ParlaMint-EE_2022-06-08_U1-P1.1.8"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.2.1" lemma="tere" msd="UPosTag=INTJ" pos="I">Tere</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.2.2" lemma="hommik" join="right" msd="UPosTag=NOUN|Case=Ela|Number=Sing" pos="S">hommikust</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.2.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:discourse" target="#ParlaMint-EE_2022-06-08_U1-P1.2.2 #ParlaMint-EE_2022-06-08_U1-P1.2.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.2 #ParlaMint-EE_2022-06-08_U1-P1.2.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.2.2 #ParlaMint-EE_2022-06-08_U1-P1.2.3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.3">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.1" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">Ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.2" lemma="saama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">saan</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.3" lemma="aru" join="right" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">aru</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.4" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.5" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.6" lemma="Marko" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Marko</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.7" lemma="Šorin" msd="UPosTag=PROPN|Case=All|Number=Sing" pos="S">Šorinile</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.8" lemma="võima" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">võib</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.9" lemma="õnn" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">õnne</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.10" lemma="soovima" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">soovida</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.3.11" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.3.2 #ParlaMint-EE_2022-06-08_U1-P1.3.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.3 #ParlaMint-EE_2022-06-08_U1-P1.3.2"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.3.2 #ParlaMint-EE_2022-06-08_U1-P1.3.3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.3.10 #ParlaMint-EE_2022-06-08_U1-P1.3.4"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U1-P1.3.10 #ParlaMint-EE_2022-06-08_U1-P1.3.5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.3.10 #ParlaMint-EE_2022-06-08_U1-P1.3.6"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U1-P1.3.6 #ParlaMint-EE_2022-06-08_U1-P1.3.7"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.3.10 #ParlaMint-EE_2022-06-08_U1-P1.3.8"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.3.10 #ParlaMint-EE_2022-06-08_U1-P1.3.9"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U1-P1.3.2 #ParlaMint-EE_2022-06-08_U1-P1.3.10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.3.2 #ParlaMint-EE_2022-06-08_U1-P1.3.11"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.4">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.4.1" lemma="palju" msd="UPosTag=ADV" pos="D">Palju</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.4.2" lemma="õnn" join="right" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">õnne</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.4.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <note>(Aplaus.)</note>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U1-P1.4.2 #ParlaMint-EE_2022-06-08_U1-P1.4.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.4 #ParlaMint-EE_2022-06-08_U1-P1.4.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.4.2 #ParlaMint-EE_2022-06-08_U1-P1.4.3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.5">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.1" lemma="nüüd" msd="UPosTag=ADV" pos="D">Nüüd</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.3" lemma="juhataja" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">juhataja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.4" lemma="väike" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Number=Sing" pos="A">väikese</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.5" lemma="dilemma" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">dilemma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.6" lemma="ees" join="right" msd="UPosTag=ADP|AdpType=Post" pos="K">ees</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.7" msd="UPosTag=PUNCT" pos="Z">:</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.8" lemma="saal" msd="UPosTag=NOUN|Case=Ela|Number=Sing" pos="S">saalist</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.9" lemma="kostuma" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">kostusid</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.10" lemma="mitu" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Ind" pos="P">mitmed</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.11" lemma="hõike" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">hõiked</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.12" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.13" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.14" lemma="võima" msd="UPosTag=AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">võiks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.15" lemma="juhataja" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">juhataja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.16" lemma="vahe_aeg" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">vaheaja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.17" lemma="võtma" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">võtta</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.18" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.19" lemma="siis" msd="UPosTag=ADV" pos="D">siis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.20" lemma="saama" msd="UPosTag=AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">saaks</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.21" lemma="Markole" msd="UPosTag=PROPN|Case=All|Number=Sing" pos="S">Markole</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.22" lemma="õnn" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">õnne</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.23" lemma="soovima" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">soovida</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.5.24" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.1"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.2"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.3"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.4"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.5 #ParlaMint-EE_2022-06-08_U1-P1.5.5"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.5.9 #ParlaMint-EE_2022-06-08_U1-P1.5.7"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.5.9 #ParlaMint-EE_2022-06-08_U1-P1.5.8"/>
+                <link ana="ud-syn:parataxis" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.9"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U1-P1.5.11 #ParlaMint-EE_2022-06-08_U1-P1.5.10"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.5.9 #ParlaMint-EE_2022-06-08_U1-P1.5.11"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.5.17 #ParlaMint-EE_2022-06-08_U1-P1.5.12"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U1-P1.5.17 #ParlaMint-EE_2022-06-08_U1-P1.5.13"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.5.17 #ParlaMint-EE_2022-06-08_U1-P1.5.14"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U1-P1.5.16 #ParlaMint-EE_2022-06-08_U1-P1.5.15"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.5.17 #ParlaMint-EE_2022-06-08_U1-P1.5.16"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U1-P1.5.9 #ParlaMint-EE_2022-06-08_U1-P1.5.17"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.5.23 #ParlaMint-EE_2022-06-08_U1-P1.5.18"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U1-P1.5.23 #ParlaMint-EE_2022-06-08_U1-P1.5.19"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.5.23 #ParlaMint-EE_2022-06-08_U1-P1.5.20"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.5.23 #ParlaMint-EE_2022-06-08_U1-P1.5.21"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.5.23 #ParlaMint-EE_2022-06-08_U1-P1.5.22"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U1-P1.5.9 #ParlaMint-EE_2022-06-08_U1-P1.5.23"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.5.5 #ParlaMint-EE_2022-06-08_U1-P1.5.24"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.6">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.1" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">Ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.2" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.3" lemma="teadma" join="right" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tea</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.4" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.5" lemma="kuidas" msd="UPosTag=ADV" pos="D">kuidas</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.6" lemma="sina" msd="UPosTag=PRON|Case=Ade|Number=Plur|Person=2|PronType=Prs" pos="P">teil</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.7" lemma="tunne" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">tunne</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.8" lemma="olema" join="right" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.6.9" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.6.3 #ParlaMint-EE_2022-06-08_U1-P1.6.1"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.6.3 #ParlaMint-EE_2022-06-08_U1-P1.6.2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.6 #ParlaMint-EE_2022-06-08_U1-P1.6.3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.6.6 #ParlaMint-EE_2022-06-08_U1-P1.6.4"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U1-P1.6.6 #ParlaMint-EE_2022-06-08_U1-P1.6.5"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U1-P1.6.3 #ParlaMint-EE_2022-06-08_U1-P1.6.6"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U1-P1.6.6 #ParlaMint-EE_2022-06-08_U1-P1.6.7"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U1-P1.6.6 #ParlaMint-EE_2022-06-08_U1-P1.6.8"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.6.3 #ParlaMint-EE_2022-06-08_U1-P1.6.9"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.7">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.1" lemma="aga" msd="UPosTag=CCONJ" pos="J">Aga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.2" lemma="enne" join="right" msd="UPosTag=ADV" pos="D">enne</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.3" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.4" lemma="kui" msd="UPosTag=SCONJ" pos="J">kui</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.5" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="P">me</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.6" lemma="see" msd="UPosTag=DET|Case=Gen|Number=Sing|PronType=Dem" pos="P">selle</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.7" lemma="protseduur" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">protseduuri</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.8" lemma="juurde" msd="UPosTag=ADP|AdpType=Post" pos="K">juurde</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.9" lemma="saama" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">saame</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.10" lemma="minema" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">minna</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.11" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.12" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.13" lemma="tegelikult" msd="UPosTag=ADV" pos="D">tegelikult</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.14" lemma="selline" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Dem" pos="P">selline</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.15" lemma="lugu" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">lugu</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.16" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.17" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <name type="ORG">
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.18" lemma="Reformi_erakond" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Reformierakonna</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.19" lemma="võetud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">võetud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.20" lemma="vahe_aeg" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">vaheaeg</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.21" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.22" lemma="läbi" msd="UPosTag=ADV" pos="D">läbi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.23" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.24" lemma="mina" msd="UPosTag=PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs" pos="P">meil</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.25" lemma="tulema" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tuleb</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.26" lemma="läbi" msd="UPosTag=ADV" pos="D">läbi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.27" lemma="hääletama" msd="UPosTag=VERB|VerbForm=Inf" pos="V">hääletada</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.28" lemma="neljas" msd="UPosTag=ADJ|Case=Nom|NumForm=Word|NumType=Ord|Number=Sing" pos="N">neljas</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.29" lemma="muudatus_ette_panek" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">muudatusettepanek</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.30" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.31" lemma="mis" msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Int,Rel" pos="P">mille</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.32" lemma="esitama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">esitas</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.33" lemma="Annely" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Annely</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.34" lemma="Akkermann" join="right" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Akkermann</w>
+              </name>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.7.35" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.3"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.4"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.5"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U1-P1.7.7 #ParlaMint-EE_2022-06-08_U1-P1.7.6"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.7"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U1-P1.7.7 #ParlaMint-EE_2022-06-08_U1-P1.7.8"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.9"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.7.10 #ParlaMint-EE_2022-06-08_U1-P1.7.11"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.12"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.13"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.14"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.7 #ParlaMint-EE_2022-06-08_U1-P1.7.15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.7.22 #ParlaMint-EE_2022-06-08_U1-P1.7.16"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U1-P1.7.22 #ParlaMint-EE_2022-06-08_U1-P1.7.17"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.19 #ParlaMint-EE_2022-06-08_U1-P1.7.18"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.20 #ParlaMint-EE_2022-06-08_U1-P1.7.19"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U1-P1.7.22 #ParlaMint-EE_2022-06-08_U1-P1.7.20"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U1-P1.7.22 #ParlaMint-EE_2022-06-08_U1-P1.7.21"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.22"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U1-P1.7.25 #ParlaMint-EE_2022-06-08_U1-P1.7.23"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.25 #ParlaMint-EE_2022-06-08_U1-P1.7.24"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.22 #ParlaMint-EE_2022-06-08_U1-P1.7.25"/>
+                <link ana="ud-syn:compound_prt" target="#ParlaMint-EE_2022-06-08_U1-P1.7.27 #ParlaMint-EE_2022-06-08_U1-P1.7.26"/>
+                <link ana="ud-syn:csubj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.25 #ParlaMint-EE_2022-06-08_U1-P1.7.27"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U1-P1.7.29 #ParlaMint-EE_2022-06-08_U1-P1.7.28"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.25 #ParlaMint-EE_2022-06-08_U1-P1.7.29"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.7.32 #ParlaMint-EE_2022-06-08_U1-P1.7.30"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.32 #ParlaMint-EE_2022-06-08_U1-P1.7.31"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U1-P1.7.29 #ParlaMint-EE_2022-06-08_U1-P1.7.32"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U1-P1.7.32 #ParlaMint-EE_2022-06-08_U1-P1.7.33"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U1-P1.7.33 #ParlaMint-EE_2022-06-08_U1-P1.7.34"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.7.15 #ParlaMint-EE_2022-06-08_U1-P1.7.35"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.8">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.8.1" lemma="panema" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Panen</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.8.2" lemma="hääletus" msd="UPosTag=NOUN|Case=All|Number=Sing" pos="S">hääletusele</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.8.3" lemma="neljas" msd="UPosTag=ADJ|Case=Gen|NumForm=Word|NumType=Ord|Number=Sing" pos="N">neljanda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.8.4" lemma="muudatus_ette_panek" join="right" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">muudatusettepaneku</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.8.5" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.8 #ParlaMint-EE_2022-06-08_U1-P1.8.1"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U1-P1.8.1 #ParlaMint-EE_2022-06-08_U1-P1.8.2"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U1-P1.8.4 #ParlaMint-EE_2022-06-08_U1-P1.8.3"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.8.1 #ParlaMint-EE_2022-06-08_U1-P1.8.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.8.1 #ParlaMint-EE_2022-06-08_U1-P1.8.5"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U1-P1.9">
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.1" lemma="paluma" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Palun</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.2" lemma="võtma" msd="UPosTag=VERB|VerbForm=Inf" pos="V">võtta</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.3" lemma="seisu_koht" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">seisukoht</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.4" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.5" lemma="hääletama" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">hääletada</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U1-P1.9.6" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U1-P1.9 #ParlaMint-EE_2022-06-08_U1-P1.9.1"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U1-P1.9.1 #ParlaMint-EE_2022-06-08_U1-P1.9.2"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U1-P1.9.2 #ParlaMint-EE_2022-06-08_U1-P1.9.3"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U1-P1.9.5 #ParlaMint-EE_2022-06-08_U1-P1.9.4"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U1-P1.9.2 #ParlaMint-EE_2022-06-08_U1-P1.9.5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U1-P1.9.1 #ParlaMint-EE_2022-06-08_U1-P1.9.6"/>
+              </linkGrp>
+            </s>
+          </seg>
+        </u>
+        <note type="speaker">Tarmo Kruusimäe</note>
+        <u who="#t_kruusimäe_19670409" xml:id="ParlaMint-EE_2022-06-08_U2" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2022-06-08_U2-P1">
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.1.1" lemma="tänan" join="right" msd="UPosTag=INTJ" pos="I">Tänan</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.1.2" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.1 #ParlaMint-EE_2022-06-08_U2-P1.1.1"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.1.1 #ParlaMint-EE_2022-06-08_U2-P1.1.2"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.1" lemma="see" join="right" msd="UPosTag=PRON|Case=Tra|Number=Sing|PronType=Dem" pos="P">Selleks</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.2" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.3" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.4" lemma="mina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs" pos="P">meie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.5" lemma="koos_olem" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">koosolemist</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.6" lemma="meele_olukalt" msd="UPosTag=ADV" pos="D">meeleolukalt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.7" lemma="tegema" msd="UPosTag=VERB|VerbForm=Inf" pos="V">teha</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.8" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.9" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.10" lemma="keegi" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Ind" pos="P">keegi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.11" lemma="teine_teise" msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Rcp|Reflex=Yes" pos="P">teineteise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.12" lemma="peale" msd="UPosTag=ADP|AdpType=Post" pos="K">peale</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.13" lemma="viha" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">viha</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.14" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.15" lemma="kandma" join="right" msd="UPosTag=VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">kannaks</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.16" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.17" lemma="siis" msd="UPosTag=ADV" pos="D">siis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.18" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.19" lemma="pakkuma" msd="UPosTag=VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">pakuks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.20" lemma="ise" msd="UPosTag=ADV" pos="D">ise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.21" lemma="välja" join="right" msd="UPosTag=ADV" pos="D">välja</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.22" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.23" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.24" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.25" lemma="ise" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes" pos="P">ise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.26" lemma="võima" msd="UPosTag=AUX|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">võiksin</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.27" lemma="laulma" msd="UPosTag=VERB|VerbForm=Inf" pos="V">laulda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.28" lemma="P" join="right" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">P</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.29" join="right" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.30" lemma="V" join="right" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">V</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.31" join="right" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.32" lemma="A" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">A</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.33" lemma="laul" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">laulu</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.34" lemma="'" join="right" msd="UPosTag=NOUN|Number=Sing" pos="S">'</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.35" lemma="Kala" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Kala</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.36" lemma="laulma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">laulab</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.37" lemma="'" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">'</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.2.38" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.1"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.7 #ParlaMint-EE_2022-06-08_U2-P1.2.2"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.2.7 #ParlaMint-EE_2022-06-08_U2-P1.2.3"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.5 #ParlaMint-EE_2022-06-08_U2-P1.2.4"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.7 #ParlaMint-EE_2022-06-08_U2-P1.2.5"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.7 #ParlaMint-EE_2022-06-08_U2-P1.2.6"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U2-P1.2.1 #ParlaMint-EE_2022-06-08_U2-P1.2.7"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.8"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.9"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.10"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.11"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U2-P1.2.11 #ParlaMint-EE_2022-06-08_U2-P1.2.12"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.13"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.2.15 #ParlaMint-EE_2022-06-08_U2-P1.2.14"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.7 #ParlaMint-EE_2022-06-08_U2-P1.2.15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.16"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.17"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.18"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.2 #ParlaMint-EE_2022-06-08_U2-P1.2.19"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.20"/>
+                <link ana="ud-syn:compound_prt" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.21"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.27 #ParlaMint-EE_2022-06-08_U2-P1.2.22"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.2.27 #ParlaMint-EE_2022-06-08_U2-P1.2.23"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.27 #ParlaMint-EE_2022-06-08_U2-P1.2.24"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.24 #ParlaMint-EE_2022-06-08_U2-P1.2.25"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.2.27 #ParlaMint-EE_2022-06-08_U2-P1.2.26"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.27"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.27 #ParlaMint-EE_2022-06-08_U2-P1.2.28"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.30 #ParlaMint-EE_2022-06-08_U2-P1.2.29"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.28 #ParlaMint-EE_2022-06-08_U2-P1.2.30"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.36 #ParlaMint-EE_2022-06-08_U2-P1.2.31"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U2-P1.2.33 #ParlaMint-EE_2022-06-08_U2-P1.2.32"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.36 #ParlaMint-EE_2022-06-08_U2-P1.2.33"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U2-P1.2.33 #ParlaMint-EE_2022-06-08_U2-P1.2.34"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.36 #ParlaMint-EE_2022-06-08_U2-P1.2.35"/>
+                <link ana="ud-syn:parataxis" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.36"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.2.36 #ParlaMint-EE_2022-06-08_U2-P1.2.37"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.2.19 #ParlaMint-EE_2022-06-08_U2-P1.2.38"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.3">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.1" lemma="üld_juht" msd="UPosTag=NOUN|Case=Ade|Number=Sing" pos="S">Üldjuhul</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.2" lemma="inimene" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">inimesed</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.3" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.4" lemma="kes" msd="UPosTag=PRON|Case=Nom|Number=Plur|PronType=Int,Rel" pos="P">kes</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.5" lemma="see" msd="UPosTag=DET|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.6" lemma="laul" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">laulu</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.7" lemma="kord" msd="UPosTag=ADV" pos="D">kord</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.8" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.9" lemma="kuulma" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">kuulnud</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.10" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.11" lemma="tema" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" pos="P">nad</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.12" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.13" lemma="tahtma" join="right" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">taha</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.14" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.15" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.16" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.17" lemma="see" msd="UPosTag=DET|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.18" lemma="teine" msd="UPosTag=ADJ|Case=Par|NumForm=Word|NumType=Ord|Number=Sing" pos="N">teist</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.19" lemma="kord" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">korda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.20" lemma="tegema" join="right" msd="UPosTag=VERB|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">teeksin</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.3.21" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <note>(Naer saalis.)</note>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.3"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U2-P1.3.6 #ParlaMint-EE_2022-06-08_U2-P1.3.5"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.6"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.7"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.8"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U2-P1.3.2 #ParlaMint-EE_2022-06-08_U2-P1.3.9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.3.9 #ParlaMint-EE_2022-06-08_U2-P1.3.10"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.11"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.12"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.3 #ParlaMint-EE_2022-06-08_U2-P1.3.13"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.3.20 #ParlaMint-EE_2022-06-08_U2-P1.3.14"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.3.20 #ParlaMint-EE_2022-06-08_U2-P1.3.15"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.3.20 #ParlaMint-EE_2022-06-08_U2-P1.3.16"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U2-P1.3.19 #ParlaMint-EE_2022-06-08_U2-P1.3.17"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U2-P1.3.19 #ParlaMint-EE_2022-06-08_U2-P1.3.18"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U2-P1.3.20 #ParlaMint-EE_2022-06-08_U2-P1.3.19"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.20"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.3.13 #ParlaMint-EE_2022-06-08_U2-P1.3.21"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.4">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.1" lemma="aga" msd="UPosTag=CCONJ" pos="J">Aga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.2" lemma="siin" msd="UPosTag=ADV" pos="D">siin</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.3" lemma="palju" msd="UPosTag=PRON|Case=Nom|Number=Plur|PronType=Ind" pos="P">paljud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.4" lemma="saadik" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">saadikud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.5" lemma="jälle" msd="UPosTag=ADV" pos="D">jälle</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.6" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.7" lemma="olema" msd="UPosTag=AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">ole</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.8" lemma="kuulma" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">kuulnud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.9" lemma="see" join="right" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.4.10" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U2-P1.4.4 #ParlaMint-EE_2022-06-08_U2-P1.4.3"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.4"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.5"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.6"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.7"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.4 #ParlaMint-EE_2022-06-08_U2-P1.4.8"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.4.8 #ParlaMint-EE_2022-06-08_U2-P1.4.10"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.5">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.1" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="P">Ma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">olen</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.3" lemma="see" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.4" lemma="küll" msd="UPosTag=ADV" pos="D">küll</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.5" lemma="tsiteerima" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">tsiteerinud</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.6" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.7" lemma="sõna" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">sõnu</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.8" lemma="siin" join="right" msd="UPosTag=ADV" pos="D">siin</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.5.9" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.1"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.2"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.4"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.5 #ParlaMint-EE_2022-06-08_U2-P1.5.5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.5.8 #ParlaMint-EE_2022-06-08_U2-P1.5.6"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U2-P1.5.8 #ParlaMint-EE_2022-06-08_U2-P1.5.7"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.8"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.5.5 #ParlaMint-EE_2022-06-08_U2-P1.5.9"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.6">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.1" lemma="aga" msd="UPosTag=CCONJ" pos="J">Aga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.2" lemma="tegemine" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">tegemist</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.3" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.4" lemma="jah" msd="UPosTag=ADV" pos="D">jah</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.5" lemma="P" join="right" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">P</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.6" join="right" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.7" lemma="V" join="right" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">V</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.8" lemma="." join="right" msd="UPosTag=ADJ|NumForm=Digit|NumType=Ord" pos="N">.</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.9" lemma="A" msd="UPosTag=NOUN|Abbr=Yes" pos="Y">A</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.10" lemma="ansambel" join="right" msd="UPosTag=NOUN|Case=Com|Number=Sing" pos="S">ansambliga</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.11" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.12" lemma="mis" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Int,Rel" pos="P">mis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.13" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">oli</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.14" lemma="üsna" msd="UPosTag=ADV" pos="D">üsna</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.15" lemma="tuntud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">tuntud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.16" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.17" lemma="populaarne" join="right" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" pos="A">populaarne</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.6.18" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.1"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.2"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.4"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.6 #ParlaMint-EE_2022-06-08_U2-P1.6.5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.6.7 #ParlaMint-EE_2022-06-08_U2-P1.6.6"/>
+                <link ana="ud-syn:parataxis" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.7"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U2-P1.6.9 #ParlaMint-EE_2022-06-08_U2-P1.6.8"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U2-P1.6.10 #ParlaMint-EE_2022-06-08_U2-P1.6.9"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.6.15 #ParlaMint-EE_2022-06-08_U2-P1.6.11"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U2-P1.6.15 #ParlaMint-EE_2022-06-08_U2-P1.6.12"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U2-P1.6.15 #ParlaMint-EE_2022-06-08_U2-P1.6.13"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.6.15 #ParlaMint-EE_2022-06-08_U2-P1.6.14"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U2-P1.6.10 #ParlaMint-EE_2022-06-08_U2-P1.6.15"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U2-P1.6.17 #ParlaMint-EE_2022-06-08_U2-P1.6.16"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U2-P1.6.15 #ParlaMint-EE_2022-06-08_U2-P1.6.17"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.6.5 #ParlaMint-EE_2022-06-08_U2-P1.6.18"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.7">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.7.1" lemma="miks" msd="UPosTag=ADV" pos="D">Miks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.7.2" lemma="mitte" join="right" msd="UPosTag=ADV|Polarity=Neg" pos="D">mitte</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.7.3" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.7.2 #ParlaMint-EE_2022-06-08_U2-P1.7.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.7 #ParlaMint-EE_2022-06-08_U2-P1.7.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.7.2 #ParlaMint-EE_2022-06-08_U2-P1.7.3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.8">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.1" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="P">Me</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.2" lemma="võima" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">võime</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.3" lemma="ise" msd="UPosTag=ADV" pos="D">ise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.4" lemma="ju" msd="UPosTag=ADV" pos="D">ju</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.5" lemma="laulma" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">laulda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.6" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.7" lemma="olema" msd="UPosTag=VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">pole</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.8" lemma="klaver" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">klaverit</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.9" lemma="vaja" join="right" msd="UPosTag=ADV" pos="D">vaja</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.8.10" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.1"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.4"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.8 #ParlaMint-EE_2022-06-08_U2-P1.8.5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.8.7 #ParlaMint-EE_2022-06-08_U2-P1.8.6"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.7"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U2-P1.8.7 #ParlaMint-EE_2022-06-08_U2-P1.8.8"/>
+                <link ana="ud-syn:compound_prt" target="#ParlaMint-EE_2022-06-08_U2-P1.8.7 #ParlaMint-EE_2022-06-08_U2-P1.8.9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.8.5 #ParlaMint-EE_2022-06-08_U2-P1.8.10"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U2-P1.9">
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.1" lemma="pärast" msd="UPosTag=ADP|AdpType=Prep" pos="K">Pärast</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.2" lemma="klaver" msd="UPosTag=NOUN|Case=Com|Number=Sing" pos="S">klaveriga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.3" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.4" lemma="veel" msd="UPosTag=ADV" pos="D">veel</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.5" lemma="see" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Dem" pos="P">see</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.6" lemma="piinlik" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" pos="A">piinlik</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.7" lemma="moment" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">moment</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.8" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.9" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.10" lemma="siis" msd="UPosTag=ADV" pos="D">siis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.11" lemma="selguma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">selgub</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.12" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.13" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.14" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.15" lemma="oskama" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">oskagi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.16" lemma="laulma" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">laulda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U2-P1.9.17" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U2-P1.9.2 #ParlaMint-EE_2022-06-08_U2-P1.9.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U2-P1.9 #ParlaMint-EE_2022-06-08_U2-P1.9.2"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U2-P1.9.2 #ParlaMint-EE_2022-06-08_U2-P1.9.3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.9.2 #ParlaMint-EE_2022-06-08_U2-P1.9.4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U2-P1.9.7 #ParlaMint-EE_2022-06-08_U2-P1.9.5"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U2-P1.9.7 #ParlaMint-EE_2022-06-08_U2-P1.9.6"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U2-P1.9.2 #ParlaMint-EE_2022-06-08_U2-P1.9.7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.9.11 #ParlaMint-EE_2022-06-08_U2-P1.9.8"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.9.11 #ParlaMint-EE_2022-06-08_U2-P1.9.9"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U2-P1.9.11 #ParlaMint-EE_2022-06-08_U2-P1.9.10"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U2-P1.9.7 #ParlaMint-EE_2022-06-08_U2-P1.9.11"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.9.15 #ParlaMint-EE_2022-06-08_U2-P1.9.12"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U2-P1.9.15 #ParlaMint-EE_2022-06-08_U2-P1.9.13"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U2-P1.9.15 #ParlaMint-EE_2022-06-08_U2-P1.9.14"/>
+                <link ana="ud-syn:csubj" target="#ParlaMint-EE_2022-06-08_U2-P1.9.11 #ParlaMint-EE_2022-06-08_U2-P1.9.15"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U2-P1.9.15 #ParlaMint-EE_2022-06-08_U2-P1.9.16"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U2-P1.9.2 #ParlaMint-EE_2022-06-08_U2-P1.9.17"/>
+              </linkGrp>
+            </s>
+          </seg>
+        </u>
+        <note type="speaker">Jüri Ratas</note>
+        <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-06-08_U3" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2022-06-08_U3-P1">
+            <s xml:id="ParlaMint-EE_2022-06-08_U3-P1.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.1" lemma="liikuma" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Liigume</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.2" lemma="edasi" msd="UPosTag=ADV" pos="D">edasi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.3" lemma="kuues" msd="UPosTag=ADJ|Case=Gen|NumForm=Word|NumType=Ord|Number=Sing" pos="N">kuuenda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.4" lemma="küsimus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">küsimuse</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.5" lemma="juurde" join="right" msd="UPosTag=ADP|AdpType=Post" pos="K">juurde</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U3-P1.1.6" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U3-P1.1 #ParlaMint-EE_2022-06-08_U3-P1.1.1"/>
+                <link ana="ud-syn:compound_prt" target="#ParlaMint-EE_2022-06-08_U3-P1.1.1 #ParlaMint-EE_2022-06-08_U3-P1.1.2"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U3-P1.1.4 #ParlaMint-EE_2022-06-08_U3-P1.1.3"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U3-P1.1.1 #ParlaMint-EE_2022-06-08_U3-P1.1.4"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U3-P1.1.4 #ParlaMint-EE_2022-06-08_U3-P1.1.5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U3-P1.1.1 #ParlaMint-EE_2022-06-08_U3-P1.1.6"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U3-P1.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.1" lemma="see" msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Dem" pos="P">Selle</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.2" lemma="esitama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">esitab</w>
+              <name type="ORG">
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.3" lemma="Riigi_kogu" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Riigikogu</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.4" lemma="liige" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">liige</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.5" lemma="Indrek" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Indrek</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.6" lemma="Saar" join="right" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Saar</w>
+              </name>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.7" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.8" lemma="see" msd="UPosTag=PRON|Case=All|Number=Sing|PronType=Dem" pos="P">sellele</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.9" lemma="vastama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">vastab</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.10" lemma="valitsus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">valitsuse</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.11" lemma="liige" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">liige</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.12" lemma="pea_minister" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">peaminister</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.13" lemma="Kaja" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Kaja</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.14" lemma="Kallas" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Kallas</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.15" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.16" lemma="teema" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">teema</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.17" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.18" lemma="rahvus_vaheline" msd="UPosTag=ADJ|Case=Ela|Degree=Pos|Number=Sing" pos="A">rahvusvahelisest</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.19" lemma="olu_kord" join="right" msd="UPosTag=NOUN|Case=Ela|Number=Sing" pos="S">olukorrast</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U3-P1.2.20" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U3-P1.2.2 #ParlaMint-EE_2022-06-08_U3-P1.2.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U3-P1.2 #ParlaMint-EE_2022-06-08_U3-P1.2.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U3-P1.2.4 #ParlaMint-EE_2022-06-08_U3-P1.2.3"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U3-P1.2.2 #ParlaMint-EE_2022-06-08_U3-P1.2.4"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U3-P1.2.4 #ParlaMint-EE_2022-06-08_U3-P1.2.5"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U3-P1.2.5 #ParlaMint-EE_2022-06-08_U3-P1.2.6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U3-P1.2.9 #ParlaMint-EE_2022-06-08_U3-P1.2.7"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U3-P1.2.9 #ParlaMint-EE_2022-06-08_U3-P1.2.8"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U3-P1.2.2 #ParlaMint-EE_2022-06-08_U3-P1.2.9"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U3-P1.2.11 #ParlaMint-EE_2022-06-08_U3-P1.2.10"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U3-P1.2.9 #ParlaMint-EE_2022-06-08_U3-P1.2.11"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U3-P1.2.11 #ParlaMint-EE_2022-06-08_U3-P1.2.12"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U3-P1.2.12 #ParlaMint-EE_2022-06-08_U3-P1.2.13"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U3-P1.2.13 #ParlaMint-EE_2022-06-08_U3-P1.2.14"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U3-P1.2.19 #ParlaMint-EE_2022-06-08_U3-P1.2.15"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U3-P1.2.19 #ParlaMint-EE_2022-06-08_U3-P1.2.16"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U3-P1.2.19 #ParlaMint-EE_2022-06-08_U3-P1.2.17"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U3-P1.2.19 #ParlaMint-EE_2022-06-08_U3-P1.2.18"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U3-P1.2.2 #ParlaMint-EE_2022-06-08_U3-P1.2.19"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U3-P1.2.2 #ParlaMint-EE_2022-06-08_U3-P1.2.20"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U3-P1.3">
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.3.1" lemma="Indrek" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Indrek</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.3.2" lemma="Saar" join="right" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Saar</w>
+              </name>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U3-P1.3.3" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U3-P1.3.4" lemma="paluma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">palun</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U3-P1.3.5" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:vocative" target="#ParlaMint-EE_2022-06-08_U3-P1.3.4 #ParlaMint-EE_2022-06-08_U3-P1.3.1"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U3-P1.3.1 #ParlaMint-EE_2022-06-08_U3-P1.3.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U3-P1.3.4 #ParlaMint-EE_2022-06-08_U3-P1.3.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U3-P1.3 #ParlaMint-EE_2022-06-08_U3-P1.3.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U3-P1.3.4 #ParlaMint-EE_2022-06-08_U3-P1.3.5"/>
+              </linkGrp>
+            </s>
+          </seg>
+        </u>
+        <note type="speaker">Indrek Saar</note>
+        <u who="#i_saar_19730220" xml:id="ParlaMint-EE_2022-06-08_U4" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2022-06-08_U4-P1">
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P1.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.1.1" lemma="aitäh" join="right" msd="UPosTag=INTJ" pos="I">Aitäh</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.1.2" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.1.3" lemma="lugu_peetud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">lugupeetud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.1.4" lemma="juhataja" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">juhataja</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.1.5" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:discourse" target="#ParlaMint-EE_2022-06-08_U4-P1.1.4 #ParlaMint-EE_2022-06-08_U4-P1.1.1"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.1.4 #ParlaMint-EE_2022-06-08_U4-P1.1.2"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P1.1.4 #ParlaMint-EE_2022-06-08_U4-P1.1.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P1.1 #ParlaMint-EE_2022-06-08_U4-P1.1.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.1.4 #ParlaMint-EE_2022-06-08_U4-P1.1.5"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P1.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.2.1" lemma="austa=tud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">Austatud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.2.2" lemma="pea_minister" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">peaminister</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.2.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P1.2.2 #ParlaMint-EE_2022-06-08_U4-P1.2.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P1.2 #ParlaMint-EE_2022-06-08_U4-P1.2.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.2.2 #ParlaMint-EE_2022-06-08_U4-P1.2.3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P1.3">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.1" lemma="kõige_pealt" msd="UPosTag=ADV" pos="D">Kõigepealt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.2" lemma="tunnustama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tunnustan</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.3" lemma="sina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=2|PronType=Prs" pos="P">teie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.4" lemma="töö" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">tööd</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.5" lemma="rahvus_vaheline" msd="UPosTag=ADJ|Case=Ine|Degree=Pos|Number=Sing" pos="A">rahvusvahelises</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.6" lemma="julge_oleku_olu_kord" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">julgeolekuolukorras</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.7" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.8" lemma="kindlasti" msd="UPosTag=ADV" pos="D">kindlasti</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.9" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.10" lemma="sina" msd="UPosTag=PRON|Case=Ade|Number=Plur|Person=2|PronType=Prs" pos="P">teil</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.11" lemma="oma" msd="UPosTag=PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs" pos="P">oma</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.12" lemma="panus" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">panus</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.13" lemma="see" join="right" msd="UPosTag=PRON|Case=Ine|Number=Sing|PronType=Dem" pos="P">selles</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.14" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.15" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.16" lemma="täna" msd="UPosTag=ADV" pos="D">täna</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.17" lemma="välis_poliitika" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">välispoliitikas</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.18" lemma="tihti" msd="UPosTag=ADV" pos="D">tihti</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.19" lemma="tõdema" join="right" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="V">tõdetakse</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.20" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.21" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.22" lemma="Eesti" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Eesti</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.23" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.24" lemma="oluliselt" msd="UPosTag=ADV" pos="D">oluliselt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.25" lemma="suurem" join="right" msd="UPosTag=ADJ|Case=Nom|Degree=Cmp|Number=Sing" pos="A">suurem</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.26" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.27" lemma="kui" msd="UPosTag=SCONJ" pos="J">kui</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.28" lemma="väline" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Number=Plur" pos="A">väliste</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.29" lemma="gabariit" msd="UPosTag=NOUN|Case=Gen|Number=Plur" pos="S">gabariitide</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.30" lemma="järgi" msd="UPosTag=ADP|AdpType=Post" pos="K">järgi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.31" lemma="võima" msd="UPosTag=AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">võiks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.32" lemma="arvama" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">arvata</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.3.33" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.2 #ParlaMint-EE_2022-06-08_U4-P1.3.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P1.3 #ParlaMint-EE_2022-06-08_U4-P1.3.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.4 #ParlaMint-EE_2022-06-08_U4-P1.3.3"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P1.3.2 #ParlaMint-EE_2022-06-08_U4-P1.3.4"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.6 #ParlaMint-EE_2022-06-08_U4-P1.3.5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.2 #ParlaMint-EE_2022-06-08_U4-P1.3.6"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P1.3.10 #ParlaMint-EE_2022-06-08_U4-P1.3.7"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.10 #ParlaMint-EE_2022-06-08_U4-P1.3.8"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U4-P1.3.10 #ParlaMint-EE_2022-06-08_U4-P1.3.9"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P1.3.2 #ParlaMint-EE_2022-06-08_U4-P1.3.10"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.12 #ParlaMint-EE_2022-06-08_U4-P1.3.11"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U4-P1.3.10 #ParlaMint-EE_2022-06-08_U4-P1.3.12"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.10 #ParlaMint-EE_2022-06-08_U4-P1.3.13"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.14"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.15"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.16"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.17"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.18"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.13 #ParlaMint-EE_2022-06-08_U4-P1.3.19"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.20"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.21"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.22"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.23"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.24"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P1.3.19 #ParlaMint-EE_2022-06-08_U4-P1.3.25"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.3.32 #ParlaMint-EE_2022-06-08_U4-P1.3.26"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P1.3.32 #ParlaMint-EE_2022-06-08_U4-P1.3.27"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P1.3.29 #ParlaMint-EE_2022-06-08_U4-P1.3.28"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.32 #ParlaMint-EE_2022-06-08_U4-P1.3.29"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P1.3.29 #ParlaMint-EE_2022-06-08_U4-P1.3.30"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P1.3.32 #ParlaMint-EE_2022-06-08_U4-P1.3.31"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U4-P1.3.25 #ParlaMint-EE_2022-06-08_U4-P1.3.32"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.3.2 #ParlaMint-EE_2022-06-08_U4-P1.3.33"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P1.4">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.1" lemma="Hurda" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Hurda</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.2" lemma="soov" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">soov</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.3" lemma="see" join="right" msd="UPosTag=PRON|Case=Ela|Number=Sing|PronType=Dem" pos="P">sellest</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.4" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.5" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.6" lemma="vaim" msd="UPosTag=NOUN|Case=Abl|Number=Sing" pos="S">vaimult</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.7" lemma="suur" msd="UPosTag=ADJ|Case=Tra|Degree=Pos|Number=Sing" pos="A">suureks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.8" lemma="saama" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">saada</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.9" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.10" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.11" lemma="mõni" msd="UPosTag=DET|Case=Ine|Number=Sing|PronType=Ind" pos="P">mõnes</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.12" lemma="mõte" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">mõttes</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.13" lemma="tänane" msd="UPosTag=ADJ|Case=Ine|Degree=Pos|Number=Sing" pos="A">tänases</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.14" lemma="kriitiline" msd="UPosTag=ADJ|Case=Ine|Degree=Pos|Number=Sing" pos="A">kriitilises</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.15" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.16" lemma="väga" msd="UPosTag=ADV" pos="D">väga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.17" lemma="tõsine" msd="UPosTag=ADJ|Case=Ine|Degree=Pos|Number=Sing" pos="A">tõsises</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.18" lemma="olu_kord" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">olukorras</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.19" lemma="isegi" msd="UPosTag=ADV" pos="D">isegi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.20" lemma="võib-olla" msd="UPosTag=ADV" pos="D">võib-olla</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.21" lemma="mõne_võrra" msd="UPosTag=ADV" pos="D">mõnevõrra</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.22" lemma="tõde" msd="UPosTag=NOUN|Case=Tra|Number=Sing" pos="S">tõeks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.23" lemma="osutuma" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">osutunud</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P1.4.24" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.2 #ParlaMint-EE_2022-06-08_U4-P1.4.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.2 #ParlaMint-EE_2022-06-08_U4-P1.4.3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.4.8 #ParlaMint-EE_2022-06-08_U4-P1.4.4"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P1.4.8 #ParlaMint-EE_2022-06-08_U4-P1.4.5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.4.8 #ParlaMint-EE_2022-06-08_U4-P1.4.6"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U4-P1.4.8 #ParlaMint-EE_2022-06-08_U4-P1.4.7"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P1.4.3 #ParlaMint-EE_2022-06-08_U4-P1.4.8"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.4.8 #ParlaMint-EE_2022-06-08_U4-P1.4.9"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.10"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P1.4.12 #ParlaMint-EE_2022-06-08_U4-P1.4.11"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.12"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.18 #ParlaMint-EE_2022-06-08_U4-P1.4.13"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.18 #ParlaMint-EE_2022-06-08_U4-P1.4.14"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P1.4.17 #ParlaMint-EE_2022-06-08_U4-P1.4.15"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.17 #ParlaMint-EE_2022-06-08_U4-P1.4.16"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P1.4.14 #ParlaMint-EE_2022-06-08_U4-P1.4.17"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.18"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.20 #ParlaMint-EE_2022-06-08_U4-P1.4.19"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.20"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P1.4.22 #ParlaMint-EE_2022-06-08_U4-P1.4.21"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.22"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P1.4 #ParlaMint-EE_2022-06-08_U4-P1.4.23"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P1.4.23 #ParlaMint-EE_2022-06-08_U4-P1.4.24"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-EE_2022-06-08_U4-P2">
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.1" lemma="aga" msd="UPosTag=CCONJ" pos="J">Aga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.2" lemma="see" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Dem" pos="P">see</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.3" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.4" lemma="tähendama" join="right" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tähenda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.5" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.6" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.7" lemma="mina" msd="UPosTag=PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs" pos="P">meil</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.8" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.9" lemma="olema" msd="UPosTag=AUX|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">oleks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.10" lemma="mure" join="right" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">muresid</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.1.11" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P2.1.4 #ParlaMint-EE_2022-06-08_U4-P2.1.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.1.4 #ParlaMint-EE_2022-06-08_U4-P2.1.2"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.1.4 #ParlaMint-EE_2022-06-08_U4-P2.1.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.1 #ParlaMint-EE_2022-06-08_U4-P2.1.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.1.7 #ParlaMint-EE_2022-06-08_U4-P2.1.5"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.1.7 #ParlaMint-EE_2022-06-08_U4-P2.1.6"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P2.1.4 #ParlaMint-EE_2022-06-08_U4-P2.1.7"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.1.7 #ParlaMint-EE_2022-06-08_U4-P2.1.8"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U4-P2.1.7 #ParlaMint-EE_2022-06-08_U4-P2.1.9"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U4-P2.1.7 #ParlaMint-EE_2022-06-08_U4-P2.1.10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.1.4 #ParlaMint-EE_2022-06-08_U4-P2.1.11"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.1" lemma="üks" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Ind" pos="P">Üks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.2" lemma="see" msd="UPosTag=DET|Case=Ela|Number=Plur|PronType=Dem" pos="P">nendest</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.3" lemma="mure" msd="UPosTag=NOUN|Case=Ela|Number=Plur" pos="S">muredest</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.4" lemma="seonduma" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">seondub</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.5" lemma="mina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs" pos="P">meie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.6" lemma="väga" msd="UPosTag=ADV" pos="D">väga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.7" lemma="oluline" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Number=Sing" pos="A">olulise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.8" lemma="liitlane" join="right" msd="UPosTag=NOUN|Case=Com|Number=Sing" pos="S">liitlasega</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.9" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.10" lemma="kes" msd="UPosTag=PRON|Case=Abl|Number=Sing|PronType=Int,Rel" pos="P">kellelt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.11" lemma="tulev" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act" pos="A">tulevad</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.12" lemma="sõnum" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">sõnumid</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.13" lemma="tegema" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">teevad</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.14" lemma="see" msd="UPosTag=DET|Case=Par|Number=Plur|PronType=Dem" pos="P">neid</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.15" lemma="inimene" join="right" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">inimesi</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.16" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.17" lemma="kes" msd="UPosTag=PRON|Case=Nom|Number=Plur|PronType=Int,Rel" pos="P">kes</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.18" lemma="vähegi" msd="UPosTag=ADV" pos="D">vähegi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.19" lemma="uudis" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">uudiseid</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.20" lemma="jälgima" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">jälgivad</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.21" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.22" lemma="pidevalt" msd="UPosTag=ADV" pos="D">pidevalt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.23" lemma="ärev" join="right" msd="UPosTag=ADJ|Case=Tra|Degree=Pos|Number=Sing" pos="A">ärevaks</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.2.24" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.2.4 #ParlaMint-EE_2022-06-08_U4-P2.2.1"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P2.2.3 #ParlaMint-EE_2022-06-08_U4-P2.2.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.1 #ParlaMint-EE_2022-06-08_U4-P2.2.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.2 #ParlaMint-EE_2022-06-08_U4-P2.2.4"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.8 #ParlaMint-EE_2022-06-08_U4-P2.2.5"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.7 #ParlaMint-EE_2022-06-08_U4-P2.2.6"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.8 #ParlaMint-EE_2022-06-08_U4-P2.2.7"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.2.4 #ParlaMint-EE_2022-06-08_U4-P2.2.8"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.2.11 #ParlaMint-EE_2022-06-08_U4-P2.2.9"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.2.11 #ParlaMint-EE_2022-06-08_U4-P2.2.10"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P2.2.12 #ParlaMint-EE_2022-06-08_U4-P2.2.11"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.2.13 #ParlaMint-EE_2022-06-08_U4-P2.2.12"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P2.2.8 #ParlaMint-EE_2022-06-08_U4-P2.2.13"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P2.2.15 #ParlaMint-EE_2022-06-08_U4-P2.2.14"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.2.13 #ParlaMint-EE_2022-06-08_U4-P2.2.15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.2.20 #ParlaMint-EE_2022-06-08_U4-P2.2.16"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.2.20 #ParlaMint-EE_2022-06-08_U4-P2.2.17"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.19 #ParlaMint-EE_2022-06-08_U4-P2.2.18"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.2.20 #ParlaMint-EE_2022-06-08_U4-P2.2.19"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P2.2.15 #ParlaMint-EE_2022-06-08_U4-P2.2.20"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.2.20 #ParlaMint-EE_2022-06-08_U4-P2.2.21"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.2.23 #ParlaMint-EE_2022-06-08_U4-P2.2.22"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U4-P2.2.20 #ParlaMint-EE_2022-06-08_U4-P2.2.23"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.2.4 #ParlaMint-EE_2022-06-08_U4-P2.2.24"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.3">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.1" lemma="see" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Dem" pos="P">See</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.2" lemma="puudutama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">puudutab</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.3" lemma="eel_kõige" msd="UPosTag=ADV" pos="D">eelkõige</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.4" lemma="Prantsus_maa" msd="UPosTag=PROPN|Case=Par|Number=Sing" pos="S">Prantsusmaad</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.5" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.6" lemma="president" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">president</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.7" lemma="Macron" join="right" msd="UPosTag=PROPN|Case=Par|Number=Sing" pos="S">Macroni</w>
+              </name>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.3.8" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.3.2 #ParlaMint-EE_2022-06-08_U4-P2.3.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.3 #ParlaMint-EE_2022-06-08_U4-P2.3.2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.3.4 #ParlaMint-EE_2022-06-08_U4-P2.3.3"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.3.2 #ParlaMint-EE_2022-06-08_U4-P2.3.4"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P2.3.6 #ParlaMint-EE_2022-06-08_U4-P2.3.5"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P2.3.4 #ParlaMint-EE_2022-06-08_U4-P2.3.6"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U4-P2.3.6 #ParlaMint-EE_2022-06-08_U4-P2.3.7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.3.2 #ParlaMint-EE_2022-06-08_U4-P2.3.8"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.4">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.1" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">On</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.2" lemma="loogiline" join="right" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" pos="A">loogiline</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.3" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.4" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.5" lemma="veebruar" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">veebruari</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.6" lemma="algus" join="right" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">alguses</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.7" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.8" lemma="enne" msd="UPosTag=ADP|AdpType=Prep" pos="K">enne</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.9" lemma="see" join="right" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.10" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.11" lemma="kui" msd="UPosTag=SCONJ" pos="J">kui</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.12" lemma="sündmus" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">sündmused</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.13" lemma="24." msd="UPosTag=ADJ|Case=Ade|NumForm=Digit|NumType=Ord|Number=Sing" pos="N">24.</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.14" lemma="veebruar" msd="UPosTag=NOUN|Case=Ade|Number=Sing" pos="S">veebruaril</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.15" lemma="dramaatiline" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Number=Sing" pos="A">dramaatilise</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.16" lemma="pööre" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">pöörde</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.17" lemma="võtma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">võtsid</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.18" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.19" lemma="teatama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">teatas</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.20" lemma="Macron" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Macron</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.21" lemma="enne" msd="UPosTag=ADP|AdpType=Prep" pos="K">enne</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.22" lemma="Moskva" msd="UPosTag=PROPN|Case=Ill|Number=Sing" pos="S">Moskvasse</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.23" lemma="sõit" join="right" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">sõitu</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.24" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.25" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.26" lemma="tema" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="P">ta</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.27" lemma="muu" msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Ind" pos="P">muu</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.28" lemma="hulgas" msd="UPosTag=ADP|AdpType=Post" pos="K">hulgas</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.29" lemma="pidama" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">peab</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.30" lemma="Vene_maa" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Venemaa</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.31" lemma="julge_oleku_mure" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">julgeolekumuresid</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.32" lemma="õigusta=tud" join="right" msd="UPosTag=ADJ|Case=Tra|Degree=Pos|Number=Sing" pos="A">õigustatuks</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.4.33" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cop" target="#ParlaMint-EE_2022-06-08_U4-P2.4.2 #ParlaMint-EE_2022-06-08_U4-P2.4.1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.4 #ParlaMint-EE_2022-06-08_U4-P2.4.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.3"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.4"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.4.6 #ParlaMint-EE_2022-06-08_U4-P2.4.5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.7"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P2.4.9 #ParlaMint-EE_2022-06-08_U4-P2.4.8"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.10"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.11"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.12"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P2.4.14 #ParlaMint-EE_2022-06-08_U4-P2.4.13"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.14"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P2.4.16 #ParlaMint-EE_2022-06-08_U4-P2.4.15"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.16"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.17"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.17 #ParlaMint-EE_2022-06-08_U4-P2.4.18"/>
+                <link ana="ud-syn:csubj_cop" target="#ParlaMint-EE_2022-06-08_U4-P2.4.2 #ParlaMint-EE_2022-06-08_U4-P2.4.19"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.20"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P2.4.23 #ParlaMint-EE_2022-06-08_U4-P2.4.21"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.22"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.23"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.31 #ParlaMint-EE_2022-06-08_U4-P2.4.24"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.4.32 #ParlaMint-EE_2022-06-08_U4-P2.4.25"/>
+                <link ana="ud-syn:nsubj_cop" target="#ParlaMint-EE_2022-06-08_U4-P2.4.31 #ParlaMint-EE_2022-06-08_U4-P2.4.26"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.4.26 #ParlaMint-EE_2022-06-08_U4-P2.4.27"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P2.4.27 #ParlaMint-EE_2022-06-08_U4-P2.4.28"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.4.31 #ParlaMint-EE_2022-06-08_U4-P2.4.29"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.4.31 #ParlaMint-EE_2022-06-08_U4-P2.4.30"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.4.19 #ParlaMint-EE_2022-06-08_U4-P2.4.31"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U4-P2.4.31 #ParlaMint-EE_2022-06-08_U4-P2.4.32"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.4.2 #ParlaMint-EE_2022-06-08_U4-P2.4.33"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.5">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.1" lemma="see" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Dem" pos="P">See</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.2" lemma="muidugi" msd="UPosTag=ADV" pos="D">muidugi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.3" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.4" lemma="meeldima" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">meeldinud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.5" lemma="mina" msd="UPosTag=PRON|Case=All|Number=Plur|Person=1|PronType=Prs" pos="P">meile</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.6" lemma="absoluutselt" join="right" msd="UPosTag=ADV" pos="D">absoluutselt</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.5.7" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.2"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.5 #ParlaMint-EE_2022-06-08_U4-P2.5.4"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.5"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.5.4 #ParlaMint-EE_2022-06-08_U4-P2.5.7"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P2.6">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.1" lemma="aga" msd="UPosTag=CCONJ" pos="J">Aga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.2" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="P">me</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.3" lemma="lootma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">lootsime</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.4" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.5" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.6" lemma="peale" msd="UPosTag=ADP|AdpType=Prep" pos="K">peale</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.7" lemma="24." msd="UPosTag=ADJ|Case=Gen|NumForm=Digit|NumType=Ord|Number=Sing" pos="N">24.</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.8" lemma="veebruar" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">veebruari</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.9" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.10" lemma="miski" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Ind" pos="P">midagi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.11" lemma="muutuma" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">muutunud</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.12" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.13" lemma="eriti" msd="UPosTag=ADV" pos="D">eriti</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.14" lemma="see" msd="UPosTag=DET|Case=Ine|Number=Sing|PronType=Dem" pos="P">selles</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.15" lemma="kontekst" join="right" msd="UPosTag=NOUN|Case=Ine|Number=Sing" pos="S">kontekstis</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.16" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.17" lemma="kus" msd="UPosTag=ADV" pos="D">kus</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.18" lemma="palju" msd="UPosTag=PRON|Case=Nom|Number=Plur|PronType=Ind" pos="P">paljud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.19" lemma="lääs" join="right" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">lääne</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.20" lemma="‑" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">‑</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.21" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.22" lemma="kesk_eurooplane" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">keskeurooplased</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.23" lemma="ütlema" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">ütlesid</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.24" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.25" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.26" lemma="tema" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" pos="P">nad</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.27" lemma="tunnistama" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tunnistavad</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.28" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.29" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.30" lemma="tema" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" pos="P">nad</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.31" lemma="eksima" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">eksisid</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.32" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.33" lemma="kui" msd="UPosTag=SCONJ" pos="J">kui</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.34" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.35" lemma="võtma" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" pos="V">võtnud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.36" lemma="piisavalt" msd="UPosTag=ADV" pos="D">piisavalt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.37" lemma="tõsiselt" msd="UPosTag=ADV" pos="D">tõsiselt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.38" lemma="mina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs" pos="P">meie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.39" lemma="läbi" msd="UPosTag=ADP|AdpType=Prep" pos="K">läbi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.40" lemma="aasta" msd="UPosTag=NOUN|Case=Gen|Number=Plur" pos="S">aastate</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.41" lemma="tehtud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">tehtud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.42" lemma="hoiatus" join="right" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">hoiatusi</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.43" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.44" lemma="kuidas" msd="UPosTag=ADV" pos="D">kuidas</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.45" lemma="Vene_maa" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Venemaa</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.46" lemma="ambitsioon" msd="UPosTag=NOUN|Case=Ill|Number=Plur" pos="S">ambitsioonidesse</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.47" lemma="tulema" msd="UPosTag=VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tuleks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.48" lemma="suhtuma" join="right" msd="UPosTag=VERB|VerbForm=Inf" pos="V">suhtuda</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P2.6.49" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P2.6.3 #ParlaMint-EE_2022-06-08_U4-P2.6.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.3 #ParlaMint-EE_2022-06-08_U4-P2.6.2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P2.6 #ParlaMint-EE_2022-06-08_U4-P2.6.3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.4"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.5"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P2.6.8 #ParlaMint-EE_2022-06-08_U4-P2.6.6"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.8 #ParlaMint-EE_2022-06-08_U4-P2.6.7"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.8"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.9"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.10"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P2.6.3 #ParlaMint-EE_2022-06-08_U4-P2.6.11"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.15 #ParlaMint-EE_2022-06-08_U4-P2.6.12"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.14 #ParlaMint-EE_2022-06-08_U4-P2.6.13"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P2.6.15 #ParlaMint-EE_2022-06-08_U4-P2.6.14"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.11 #ParlaMint-EE_2022-06-08_U4-P2.6.15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.23 #ParlaMint-EE_2022-06-08_U4-P2.6.16"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.23 #ParlaMint-EE_2022-06-08_U4-P2.6.17"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.20 #ParlaMint-EE_2022-06-08_U4-P2.6.18"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.20 #ParlaMint-EE_2022-06-08_U4-P2.6.19"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.23 #ParlaMint-EE_2022-06-08_U4-P2.6.20"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P2.6.22 #ParlaMint-EE_2022-06-08_U4-P2.6.21"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.20 #ParlaMint-EE_2022-06-08_U4-P2.6.22"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.15 #ParlaMint-EE_2022-06-08_U4-P2.6.23"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.27 #ParlaMint-EE_2022-06-08_U4-P2.6.24"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.27 #ParlaMint-EE_2022-06-08_U4-P2.6.25"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.27 #ParlaMint-EE_2022-06-08_U4-P2.6.26"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P2.6.23 #ParlaMint-EE_2022-06-08_U4-P2.6.27"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.31 #ParlaMint-EE_2022-06-08_U4-P2.6.28"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.31 #ParlaMint-EE_2022-06-08_U4-P2.6.29"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.31 #ParlaMint-EE_2022-06-08_U4-P2.6.30"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P2.6.27 #ParlaMint-EE_2022-06-08_U4-P2.6.31"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.32"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.33"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.34"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.31 #ParlaMint-EE_2022-06-08_U4-P2.6.35"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.36"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.37"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.42 #ParlaMint-EE_2022-06-08_U4-P2.6.38"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P2.6.40 #ParlaMint-EE_2022-06-08_U4-P2.6.39"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.41 #ParlaMint-EE_2022-06-08_U4-P2.6.40"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.42 #ParlaMint-EE_2022-06-08_U4-P2.6.41"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.35 #ParlaMint-EE_2022-06-08_U4-P2.6.42"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.47 #ParlaMint-EE_2022-06-08_U4-P2.6.43"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P2.6.47 #ParlaMint-EE_2022-06-08_U4-P2.6.44"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P2.6.46 #ParlaMint-EE_2022-06-08_U4-P2.6.45"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.48 #ParlaMint-EE_2022-06-08_U4-P2.6.46"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P2.6.42 #ParlaMint-EE_2022-06-08_U4-P2.6.47"/>
+                <link ana="ud-syn:csubj" target="#ParlaMint-EE_2022-06-08_U4-P2.6.47 #ParlaMint-EE_2022-06-08_U4-P2.6.48"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P2.6.3 #ParlaMint-EE_2022-06-08_U4-P2.6.49"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-EE_2022-06-08_U4-P3">
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.1">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.1" lemma="see" msd="UPosTag=PRON|Case=Ela|Number=Sing|PronType=Dem" pos="P">Sellest</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.2" lemma="hoolimata" msd="UPosTag=ADP|AdpType=Post" pos="K">hoolimata</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.3" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="P">me</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.4" lemma="nägema" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">näeme</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.5" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.6" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.7" lemma="Macron" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Macron</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.8" lemma="tulema" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tuleb</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.9" lemma="jälle" msd="UPosTag=ADV" pos="D">jälle</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.10" lemma="välja" msd="UPosTag=ADV" pos="D">välja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.11" lemma="jutt" join="right" msd="UPosTag=NOUN|Case=Com|Number=Sing" pos="S">jutuga</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.12" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.13" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.14" lemma="Vene_maa" msd="UPosTag=PROPN|Case=Par|Number=Sing" pos="S">Venemaad</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.15" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.16" lemma="tohtima" msd="UPosTag=AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tohi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.17" lemma="alandama" msd="UPosTag=VERB|VerbForm=Inf" pos="V">alandada</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.18" lemma="ja" msd="UPosTag=CCONJ" pos="J">ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.19" lemma="tema" msd="UPosTag=PRON|Case=All|Number=Sing|Person=3|PronType=Prs" pos="P">talle</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.20" lemma="pidama" msd="UPosTag=AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">peaks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.21" lemma="miski" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Ind" pos="P">midagi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.22" lemma="andma" join="right" msd="UPosTag=VERB|Case=Ill|VerbForm=Sup|Voice=Act" pos="V">andma</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.1.23" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.1.4 #ParlaMint-EE_2022-06-08_U4-P3.1.1"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P3.1.1 #ParlaMint-EE_2022-06-08_U4-P3.1.2"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.1.4 #ParlaMint-EE_2022-06-08_U4-P3.1.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.1 #ParlaMint-EE_2022-06-08_U4-P3.1.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.5"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.6"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.7"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-EE_2022-06-08_U4-P3.1.4 #ParlaMint-EE_2022-06-08_U4-P3.1.8"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.9"/>
+                <link ana="ud-syn:compound_prt" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.10"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.1.8 #ParlaMint-EE_2022-06-08_U4-P3.1.11"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.12"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.13"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.14"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.15"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.16"/>
+                <link ana="ud-syn:acl" target="#ParlaMint-EE_2022-06-08_U4-P3.1.11 #ParlaMint-EE_2022-06-08_U4-P3.1.17"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P3.1.22 #ParlaMint-EE_2022-06-08_U4-P3.1.18"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.1.22 #ParlaMint-EE_2022-06-08_U4-P3.1.19"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.1.22 #ParlaMint-EE_2022-06-08_U4-P3.1.20"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.1.22 #ParlaMint-EE_2022-06-08_U4-P3.1.21"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P3.1.17 #ParlaMint-EE_2022-06-08_U4-P3.1.22"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.1.4 #ParlaMint-EE_2022-06-08_U4-P3.1.23"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.2">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.1" lemma="see" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Dem" pos="P">See</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.2" lemma="kindlasti" msd="UPosTag=ADV" pos="D">kindlasti</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.3" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.4" lemma="meeldima" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">meeldi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.5" lemma="absoluutselt" msd="UPosTag=ADV" pos="D">absoluutselt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.6" lemma="mina" join="right" msd="UPosTag=PRON|Case=All|Number=Plur|Person=1|PronType=Prs" pos="P">meile</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.7" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.8" lemma="ammugi" msd="UPosTag=ADV" pos="D">ammugi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.9" lemma="mitte" msd="UPosTag=ADV|Polarity=Neg" pos="D">mitte</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.10" lemma="mina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs" pos="P">meie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.11" lemma="sõber" msd="UPosTag=NOUN|Case=All|Number=Plur" pos="S">sõpradele</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.12" lemma="Ukraina" join="right" msd="UPosTag=PROPN|Case=Ine|Number=Sing" pos="S">Ukrainas</w>
+              </name>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.2.13" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.2.4 #ParlaMint-EE_2022-06-08_U4-P3.2.1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.4 #ParlaMint-EE_2022-06-08_U4-P3.2.2"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.2.4 #ParlaMint-EE_2022-06-08_U4-P3.2.3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.2 #ParlaMint-EE_2022-06-08_U4-P3.2.4"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.6 #ParlaMint-EE_2022-06-08_U4-P3.2.5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.2.4 #ParlaMint-EE_2022-06-08_U4-P3.2.6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.2.11 #ParlaMint-EE_2022-06-08_U4-P3.2.7"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.11 #ParlaMint-EE_2022-06-08_U4-P3.2.8"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.11 #ParlaMint-EE_2022-06-08_U4-P3.2.9"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.11 #ParlaMint-EE_2022-06-08_U4-P3.2.10"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-EE_2022-06-08_U4-P3.2.6 #ParlaMint-EE_2022-06-08_U4-P3.2.11"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.2.11 #ParlaMint-EE_2022-06-08_U4-P3.2.12"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.2.4 #ParlaMint-EE_2022-06-08_U4-P3.2.13"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.3">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.3.1" lemma="ja" msd="UPosTag=CCONJ" pos="J">Ja</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.3.2" lemma="tema" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="P">ta</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.3.3" lemma="helistama" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">helistab</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.3.4" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-EE_2022-06-08_U4-P3.3.3 #ParlaMint-EE_2022-06-08_U4-P3.3.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.3.3 #ParlaMint-EE_2022-06-08_U4-P3.3.2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.3 #ParlaMint-EE_2022-06-08_U4-P3.3.3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.3.3 #ParlaMint-EE_2022-06-08_U4-P3.3.4"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.4">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.1" lemma="muideks" join="right" msd="UPosTag=ADV" pos="D">Muideks</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.2" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.3" lemma="välis_komisjon" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">väliskomisjoni</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.4" lemma="liige" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">liige</w>
+              <name type="PER">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.5" lemma="Mihhail" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Mihhail</w>
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.6" lemma="Lotman" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Lotman</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.7" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.8" lemma="tegema" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">teinud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.9" lemma="tähele_panek" join="right" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">tähelepaneku</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.10" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.11" lemma="et" msd="UPosTag=SCONJ" pos="J">et</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.12" lemma="pärast" msd="UPosTag=ADP|AdpType=Prep" pos="K">pärast</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.13" lemma="iga" msd="UPosTag=DET|Case=Gen|Number=Sing|PronType=Tot" pos="P">iga</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.14" lemma="Macron" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Macroni</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.15" lemma="telefoni_kõne" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">telefonikõnet</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.16" lemma="Ukraina" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Ukraina</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.17" lemma="pommitamine" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">pommitamine</w>
+              <name type="LOC">
+                <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.18" lemma="Vene_maa" msd="UPosTag=PROPN|Case=Gen|Number=Sing" pos="S">Venemaa</w>
+              </name>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.19" lemma="poolt" msd="UPosTag=ADP|AdpType=Post" pos="K">poolt</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.20" lemma="intensiivistuma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">intensiivistub</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.4.21" msd="UPosTag=PUNCT" pos="Z">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.1"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.4.4 #ParlaMint-EE_2022-06-08_U4-P3.4.3"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.4"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-EE_2022-06-08_U4-P3.4.4 #ParlaMint-EE_2022-06-08_U4-P3.4.5"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-EE_2022-06-08_U4-P3.4.5 #ParlaMint-EE_2022-06-08_U4-P3.4.6"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.7"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.4 #ParlaMint-EE_2022-06-08_U4-P3.4.8"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.4.20 #ParlaMint-EE_2022-06-08_U4-P3.4.10"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P3.4.20 #ParlaMint-EE_2022-06-08_U4-P3.4.11"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P3.4.15 #ParlaMint-EE_2022-06-08_U4-P3.4.12"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P3.4.15 #ParlaMint-EE_2022-06-08_U4-P3.4.13"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.4.15 #ParlaMint-EE_2022-06-08_U4-P3.4.14"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.4.20 #ParlaMint-EE_2022-06-08_U4-P3.4.15"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.4.17 #ParlaMint-EE_2022-06-08_U4-P3.4.16"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.4.20 #ParlaMint-EE_2022-06-08_U4-P3.4.17"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.4.20 #ParlaMint-EE_2022-06-08_U4-P3.4.18"/>
+                <link ana="ud-syn:case" target="#ParlaMint-EE_2022-06-08_U4-P3.4.18 #ParlaMint-EE_2022-06-08_U4-P3.4.19"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P3.4.9 #ParlaMint-EE_2022-06-08_U4-P3.4.20"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.4.8 #ParlaMint-EE_2022-06-08_U4-P3.4.21"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.5">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.5.1" lemma="mis" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Int,Rel" pos="P">Mis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.5.2" lemma="siis" msd="UPosTag=ADV" pos="D">siis</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.5.3" msd="UPosTag=PUNCT" pos="Z">...</pc>
+              <note>(Juhataja helistab kella.)</note>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.5 #ParlaMint-EE_2022-06-08_U4-P3.5.1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.5.1 #ParlaMint-EE_2022-06-08_U4-P3.5.2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.5.1 #ParlaMint-EE_2022-06-08_U4-P3.5.3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.6">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.6.1" lemma="mis" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Int,Rel" pos="P">Mida</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.6.2" lemma="mina" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="P">me</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.6.3" lemma="tegema" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">teeme</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.6.4" lemma="valesti" join="right" msd="UPosTag=ADV" pos="D">valesti</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.6.5" msd="UPosTag=PUNCT" pos="Z">?</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.6.3 #ParlaMint-EE_2022-06-08_U4-P3.6.1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.6.3 #ParlaMint-EE_2022-06-08_U4-P3.6.2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.6 #ParlaMint-EE_2022-06-08_U4-P3.6.3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.6.3 #ParlaMint-EE_2022-06-08_U4-P3.6.4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.6.3 #ParlaMint-EE_2022-06-08_U4-P3.6.5"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-EE_2022-06-08_U4-P3.7">
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.1" lemma="miks" msd="UPosTag=ADV" pos="D">Miks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.2" lemma="üks" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Ind" pos="P">üks</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.3" lemma="mina" msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs" pos="P">meie</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.4" lemma="oluline" msd="UPosTag=ADJ|Case=Par|Degree=Pos|Number=Plur" pos="A">olulisi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.5" lemma="liitlane" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">liitlasi</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.6" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.7" lemma="taas" msd="UPosTag=ADV" pos="D">taas</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.8" lemma="hakkama" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">hakanud</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.9" lemma="rääkima" msd="UPosTag=VERB|Case=Ill|VerbForm=Sup|Voice=Act" pos="V">rääkima</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.10" lemma="jutt" join="right" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">juttu</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.11" msd="UPosTag=PUNCT" pos="Z">,</pc>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.12" lemma="mis" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Int,Rel" pos="P">mis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.13" lemma="iga" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Tot" pos="P">iga</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.14" lemma="kord" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">kord</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.15" lemma="tekitama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tekitab</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.16" lemma="mina" msd="UPosTag=PRON|Case=Ine|Number=Plur|Person=2|PronType=Prs" pos="P">meis</w>
+              <w xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.17" lemma="ohu_tunne" join="right" msd="UPosTag=NOUN|Case=Par|Number=Plur" pos="S">ohutunde</w>
+              <pc xml:id="ParlaMint-EE_2022-06-08_U4-P3.7.18" msd="UPosTag=PUNCT" pos="Z">?</pc>
+              <note>(Juhataja helistab kella.)</note>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:mark" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.1"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P3.7.5 #ParlaMint-EE_2022-06-08_U4-P3.7.2"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-EE_2022-06-08_U4-P3.7.5 #ParlaMint-EE_2022-06-08_U4-P3.7.3"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-EE_2022-06-08_U4-P3.7.5 #ParlaMint-EE_2022-06-08_U4-P3.7.4"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.5"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.6"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.7"/>
+                <link ana="ud-syn:root" target="#ParlaMint-EE_2022-06-08_U4-P3.7 #ParlaMint-EE_2022-06-08_U4-P3.7.8"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.9"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.7.9 #ParlaMint-EE_2022-06-08_U4-P3.7.10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.7.15 #ParlaMint-EE_2022-06-08_U4-P3.7.11"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-EE_2022-06-08_U4-P3.7.15 #ParlaMint-EE_2022-06-08_U4-P3.7.12"/>
+                <link ana="ud-syn:det" target="#ParlaMint-EE_2022-06-08_U4-P3.7.14 #ParlaMint-EE_2022-06-08_U4-P3.7.13"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.7.15 #ParlaMint-EE_2022-06-08_U4-P3.7.14"/>
+                <link ana="ud-syn:acl_relcl" target="#ParlaMint-EE_2022-06-08_U4-P3.7.10 #ParlaMint-EE_2022-06-08_U4-P3.7.15"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-EE_2022-06-08_U4-P3.7.15 #ParlaMint-EE_2022-06-08_U4-P3.7.16"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-EE_2022-06-08_U4-P3.7.15 #ParlaMint-EE_2022-06-08_U4-P3.7.17"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-EE_2022-06-08_U4-P3.7.8 #ParlaMint-EE_2022-06-08_U4-P3.7.18"/>
+              </linkGrp>
+            </s>
+          </seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

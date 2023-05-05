@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-TT_2023-02-03" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2023-02-03 [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="sub">XII Parliament term, I Session, Plenary Assembly regular meeting on Monday, 04.04.2011, 15:00</title>
+        <title xml:lang="et" type="sub">XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00</title>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2011-04-04">2011-04-04</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs1">I regular session</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+        <respStmt>
+          <persName>Martin Mölder</persName>
+          <persName>Neeme Kahusk</persName>
+          <persName>Kadri Vider</persName>
+          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.1</edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
+        <measure quantity="1000" unit="words" xml:lang="en">1000 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2023-02-06">2023-02-06</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201104041500</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">Riigikogu</name>
+          <name type="address">Lossi plats 1a</name>
+          <name type="city">Tallinn</name>
+          <name type="country" key="EE">Estonia</name>
+          <date ana="#parla.meeting" when="2023-02-03">2023-02-03</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#covid">
+    <body>
+      <div type="debateSection">
+        <note type="speaker"> </note>
+        <u who="#" xml:id="ParlaMint-TT_2023-02-03_U1" ana="#guest">
+          <seg xml:id="ParlaMint-TT_2023-02-03_U1-P1">(Lauldakse hümni.)</seg>
+        </u>
+        <note type="speaker">Alo Heinsalu</note>
+        <u who="#a_heinsalu_00000000" xml:id="ParlaMint-TT_2023-02-03_U2" ana="#guest">
+          <seg xml:id="ParlaMint-TT_2023-02-03_U2-P1">Austatud Vabariigi President! Lugupeetud Riigikogu liikmed! Vabariigi Valitsuse liikmed! Teie ekstsellentsid! Daamid ja härrad! Tulenevalt Riigikogu kodu- ja töökorra seaduse § 2 lõikest 2 juhatab Riigikogu tänast istungit kuni Riigikogu esimehe valimiseni Vabariigi Valimiskomisjoni aseesimees Alo Heinsalu.</seg>
+          <seg xml:id="ParlaMint-TT_2023-02-03_U2-P2">XII Riigikogu esimese istungjärgu esimese istungi avamiseks on sõna Vabariigi Presidendil. Palun!</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

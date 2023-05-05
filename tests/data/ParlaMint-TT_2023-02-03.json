@@ -1,0 +1,61 @@
+[
+    {
+        "speech_data": {
+            "parliament_election_year": "2011",
+            "date_of_speech": "2011-04-04 15:00:00",
+            "speaker_id": "",
+            "speaker_first_name": "",
+            "speaker_last_name": "",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 1,
+            "government_minister": 0,
+            "speaker_gender": "",
+            "speaker_birth_date": "",
+            "parliamentary_group": "",
+            "parliamentary_group_short": "",
+            "political_party": "",
+            "electoral_list": "",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/201104041500",
+            "session": "I regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00",
+            "agenda_item": "15:00 Avaistung"
+        },
+        "speech": [
+            "(Lauldakse hümni.)"
+        ]
+    },
+    {
+        "speech_data": {
+            "parliament_election_year": "2011",
+            "date_of_speech": "2011-04-04 15:00:00",
+            "speaker_id": "a_heinsalu_00000000",
+            "speaker_first_name": "Alo",
+            "speaker_last_name": "Heinsalu",
+            "mp_chair": 0,
+            "mp_deputy_chair": 0,
+            "mp_regular": 0,
+            "mp_governing_party": 0,
+            "guest": 1,
+            "government_minister": 0,
+            "speaker_gender": "",
+            "speaker_birth_date": "",
+            "parliamentary_group": "",
+            "parliamentary_group_short": "",
+            "political_party": "",
+            "electoral_list": "",
+            "transcript_url": "https://stenogrammid.riigikogu.ee/et/201104041500",
+            "session": "I regular session",
+            "sitting_type": "regular sitting",
+            "general_header": "XII Riigikogu, I Istungjärk, täiskogu korraline istung Esmaspäev, 04.04.2011, 15:00",
+            "agenda_item": "15:00 Avaistung"
+        },
+        "speech": [
+            "Austatud Vabariigi President! Lugupeetud Riigikogu liikmed! Vabariigi Valitsuse liikmed! Teie ekstsellentsid! Daamid ja härrad! Tulenevalt Riigikogu kodu- ja töökorra seaduse § 2 lõikest 2 juhatab Riigikogu tänast istungit kuni Riigikogu esimehe valimiseni Vabariigi Valimiskomisjoni aseesimees Alo Heinsalu.",
+            "XII Riigikogu esimese istungjärgu esimese istungi avamiseks on sõna Vabariigi Presidendil. Palun!"
+        ]
+    }
+]
